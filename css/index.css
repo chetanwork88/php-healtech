@@ -1,0 +1,127 @@
+    /* ---------------------------index.css -----------------------------*/
+
+    /* ----------* home parallax image*-------------- */
+
+    .home-img {
+        background-image: url('../images/home_image.png');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 530px;
+        display: flex;
+    }
+
+    .home-img-content {
+        background-color: aqua;
+        align-self: flex-end;
+    }
+
+    /* ----------*introduction *-------------- */
+
+    /* ----------* intro video*-------------- */
+
+    .intro-details {
+        height: 60vh;
+    }
+
+    .intro-details .text {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .video iframe {
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    /* ----------* assembly parallax image*-------------- */
+
+    .assembly-img {
+        background-image: url('../images/assembly.jpg');
+    }
+
+    /* --------------------*contact *----------------------- */
+
+    .contact-details {
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    /* --------------------* *----------------------- */
+
+    /* --------------------* *----------------------- */
+
+    /* --------------------* *----------------------- */
+
+    /* --------------------------------big windows-------------------------- */
+
+    @media only screen and (max-device-width: 1300px) {
+        /* ----------* intro-video*-------------- */
+        .intro-details {
+            height: 37vh;
+        }
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+    }
+
+    /* -----------------------------ipad-pro-------------------------------- */
+
+    @media screen and (max-width: 1100px) {
+        /* ----------* intro video*-------------- */
+        .intro-details {
+            height: 30vh;
+        }
+        .intro-details .text {
+            font-size: 4.5vw;
+        }
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+    }
+
+    /* ------------------------------ipad--------------------------------- */
+
+    @media screen and (max-width: 990px) {
+        /* ----------* intro video*-------------- */
+        .intro-details {
+            height: 25vh;
+        }
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+    }
+
+    /* ----------------------------mobile devices-------------------------- */
+
+    @media screen and (max-width: 700px) {
+        /* ----------*introduction *-------------- */
+        /* ----------* intro video*-------------- */
+        .intro-details {
+            height: 75vh;
+        }
+        /* ----------*contact *-------------- */
+        .address {
+            padding: 40px 0;
+        }
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+    }
+
+    /* -------------------- very small mobile devices---------------------------- */
+
+    @media screen and (max-width: 550px) {
+        /* ----------*introduction *-------------- */
+        /* ----------* intro video*-------------- */
+        .intro-details {
+            height: 80vh;
+        }
+        /* ----------*contact *-------------- */
+        .address {
+            padding: 40px 0;
+        }
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+    }

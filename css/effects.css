@@ -1,0 +1,82 @@
+    /* ---------------------------effects.css -----------------------------*/
+
+    /* ----------* Parallax*-------------- */
+
+    .parallax-img {
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 82vh;
+    }
+
+    .parallax-txt-img {
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* ----------* *-------------- */
+
+    /* ----------* *-------------- */
+
+    /* --------------------* *----------------------- */
+
+    /* --------------------------------big windows-------------------------- */
+
+    @media only screen and (max-device-width: 1300px) {
+        /* ----------* Parallax*-------------- */
+        .parallax-img {
+            min-height: 90vh;
+        }
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+    }
+
+    /* -----------------------------ipad-pro-------------------------------- */
+
+    @media screen and (max-width: 1100px) {
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+    }
+
+    /* ------------------------------ipad--------------------------------- */
+
+    @media screen and (max-width: 990px) {
+        /* ----------* Parallax*-------------- */
+        .parallax-img {
+            min-height: 70vh;
+        }
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+    }
+
+    /* ----------------------------mobile devices-------------------------- */
+
+    @media screen and (max-width: 700px) {
+        /* ----------* Parallax*-------------- */
+        .parallax-img {
+            min-height: 75vh;
+        }
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+    }
+
+    /* -------------------- very small mobile devices---------------------------- */
+
+    @media screen and (max-width: 550px) {
+        /* ----------* Parallax*-------------- */
+        .parallax-img {
+            min-height: 55vh;
+        }
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+    }

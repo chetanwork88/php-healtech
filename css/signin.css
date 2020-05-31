@@ -1,0 +1,119 @@
+    /* ---------------------------signin.css -----------------------------*/
+
+    /* ----------* signup*-------------- */
+
+    .sign-up-img {
+        background-image: url('../images/signup.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .log-in-img {
+        background-image: url('../images/login.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* .sign-up {
+        background-color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0.5);
+    } */
+
+    .sign-up, .log-in {
+        background-color: whitesmoke;
+    }
+
+    /* ----------*signup form *-------------- */
+
+    .form-icon {
+        width: 20%;
+    }
+
+    .form-input {
+        width: 80%;
+    }
+
+    .sign-in input[type] {
+        width: 100%;
+        line-height: 200%;
+        border: none;
+        border-bottom: 1px solid grey;
+        color: black;
+        margin-bottom: 20px;
+    }
+
+    .sign-up input[type]:hover {
+        border-bottom: 2px solid #007bff;
+    }
+
+    .sign-up .form-icon .fas {
+        color: #007bff;
+    }
+
+    .log-in input[type]:hover {
+        border-bottom: 2px solid #28a745;
+    }
+
+    .log-in .form-icon .fas {
+        color: #28a745;
+    }
+
+    /* ----------* *-------------- */
+
+    /* --------------------* *----------------------- */
+
+    /* --------------------------------big windows-------------------------- */
+
+    @media only screen and (max-device-width: 1300px) {
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+    }
+
+    /* -----------------------------ipad-pro-------------------------------- */
+
+    @media screen and (max-width: 1100px) {
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+    }
+
+    /* ------------------------------ipad--------------------------------- */
+
+    @media screen and (max-width: 990px) {
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+    }
+
+    /* ----------------------------mobile devices-------------------------- */
+
+    @media screen and (max-width: 700px) {
+        /* ----------* *-------------- */
+        .form-icon {
+            width: 15%;
+        }
+        .form-input {
+            width: 85%;
+        }
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+    }
+
+    /* -------------------- very small mobile devices---------------------------- */
+
+    @media screen and (max-width: 550px) {
+        /* ----------*signup-form *-------------- */
+        .sign-in .px-5 {
+            padding: 10px !important;
+        }
+        .form-icon {
+            width: 15%;
+        }
+        .form-input {
+            width: 85%;
+        }
+        /* ----------* *-------------- */
+        /* ----------* *-------------- */
+    }

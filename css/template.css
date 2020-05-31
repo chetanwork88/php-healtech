@@ -1,0 +1,602 @@
+/* ---------------------------template.css -----------------------------*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ----------navbar-------------- */
+
+.navbar {
+  background-color: black;
+  padding: 1% 5%;
+}
+
+/* .scrolled-nav {
+        padding: 0 5%;
+        transition: ease-in-out 0.3s;
+    }
+
+    .counter {
+        width: 20px;
+        height: 20px;
+        background: black;
+        color: #fff;
+        position: fixed;
+        top: 120px;
+        right: 0;
+    } */
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.scrolled-down {
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand {
+  width: 30%;
+}
+
+.brand-img {
+  max-width: 30%;
+}
+
+.brand-img img {
+  max-width: 80%;
+}
+
+.brand-name {
+  max-width: 70%;
+}
+
+.navbar h5 {
+  font-size: 1.5vw;
+}
+
+.navbar h6 {
+  font-size: 1.2vw;
+}
+
+.nav-link {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.dropdown-toggle::after {
+  transition: transform 0.15s linear;
+}
+
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+
+.dropdown-menu {
+  background-color: rgb(17, 17, 17);
+}
+
+.dropdown-item {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown-item:hover {
+  color: white;
+  background-color: black;
+}
+
+/* --------------------comman used classes----------- */
+
+/* ------------heading------------- */
+
+.text-black {
+  color: black;
+}
+
+.heading-lg {
+  font-size: 5vw;
+}
+
+.heading-md {
+  font-size: 3.5vw;
+}
+
+.heading-sm {
+  font-size: 2.5vw;
+}
+
+.heading-xs {
+  font-size: 1.5vw;
+}
+
+/* ---------background colors------------ */
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-grey {
+  background-color: rgb(24, 24, 24);
+}
+
+.bg-light-grey {
+  background-color: rgb(247, 247, 247);
+}
+
+/* ------------buttons------------- */
+
+.btn {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 0px;
+  background: transparent;
+  transition: all 0.5s ease 0s;
+}
+
+.btn:hover,
+.fill-btn:hover {
+  border-radius: 40px;
+}
+
+.fill-btn {
+  border-radius: 0;
+  padding-bottom: 5px;
+  font-size: 1.5vw;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  transition: all 0.5s ease 0s;
+}
+
+.btn-primary:hover {
+  background-color: rgb(39, 39, 153);
+  border-color: rgb(39, 39, 153);
+}
+
+.btn-white {
+  color: black;
+}
+
+.pill-btn {
+  border-radius: 40px;
+}
+
+.pill-btn:hover {
+  background-color: #daa404;
+}
+
+/* ----------------flex div wrap ------------ */
+
+.div-xl {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.div-lg {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.div-md {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.div-ms {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.div-sm {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.div-xs {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrap-reverse {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+/* --------text-alignment------- */
+
+.center {
+  margin: auto 0;
+  text-align: center;
+}
+
+/* ---------form-------------- */
+
+.p-10 {
+  padding: 10%;
+}
+
+.form-xl {
+  width: 100%;
+}
+
+.form-lg {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form-md {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-sm {
+  width: 30%;
+  margin: 0 auto;
+}
+
+input[type],
+.textarea {
+  background: transparent;
+  border-radius: 0;
+  color: white;
+}
+
+.form-bottom input[type],
+.form-bottom .textarea {
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+}
+
+input[type]:hover,
+input[type]:focus,
+.textarea:hover,
+.textarea:focus {
+  border: 1px solid whitesmoke;
+  background-color: transparent;
+  color: white;
+}
+
+/* --------------form-------------- */
+
+.col-lg-6 {
+  padding: 5px;
+}
+
+/* ----------------glyphicons------------ */
+
+.fab {
+  color: white;
+}
+
+.fab {
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.fa-facebook-f {
+  background-color: #3b5998;
+  padding: 10px 12px;
+}
+
+.fa-twitter {
+  background-color: #00acee;
+  padding: 10px 8px;
+}
+
+.fa-linkedin-in {
+  background-color: #0e76a8;
+  padding: 10px;
+}
+
+.fa-google {
+  background-color: #db4a39;
+  padding: 10px 8px;
+}
+
+/* --------------------------------big windows-------------------------- */
+
+@media only screen and (max-device-width: 1300px) {
+}
+
+/* -----------------------------ipad-pro-------------------------------- */
+
+@media screen and (max-width: 1100px) {
+  /* ----------navbar-------------- */
+  .navbar {
+    background-color: black;
+    padding: 1% 3%;
+  }
+  .navbar h5 {
+    font-size: 1.8vw;
+  }
+  .navbar h6 {
+    font-size: 1.3vw;
+  }
+  /* --------heading------------- */
+  .heading-sm {
+    font-size: 3.5vw;
+  }
+  /* ----------div----------- */
+  .div-ms {
+    width: 55%;
+  }
+  .div-xs {
+    width: 40%;
+  }
+}
+
+/* ------------------------------ipad--------------------------------- */
+
+@media screen and (max-width: 990px) {
+  /* ----------navbar-------------- */
+  .navbar-brand {
+    width: 35%;
+  }
+  .navbar h5 {
+    font-size: 2vw;
+  }
+  .navbar h6 {
+    font-size: 1.5vw;
+  }
+  .nav-item {
+    padding: 2% 0;
+  }
+  .nav-link {
+    font-size: 3vw;
+  }
+  .dropdown-menu {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 2.5vw;
+  }
+  /* ----------overlay menu---------- */
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .overlay-content {
+    position: relative;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+  }
+  .overlay a {
+    transition: 0.3s;
+  }
+  .overlay .closebtn {
+    position: absolute;
+    top: 7%;
+    right: 12%;
+  }
+  /* --------heading------------- */
+  .heading-sm {
+    font-size: 4vw;
+  }
+  /* ----------form---------------- */
+  .form-lg {
+    width: 100%;
+  }
+  .form-sm,
+  .form-md {
+    width: 50%;
+  }
+  /* ----------div--------- */
+  .div-lg {
+    width: 80%;
+  }
+  .div-sm {
+    width: 40%;
+  }
+  /* ----------div----------- */
+  .div-ms {
+    width: 70%;
+  }
+  .div-xs {
+    width: 40%;
+  }
+}
+
+/* ----------------------------mobile devices-------------------------- */
+
+@media screen and (max-width: 700px) {
+  /* ----------navbar-------------- */
+  .navbar-brand {
+    width: 80%;
+  }
+  .navbar h5 {
+    font-size: 4.3vw;
+  }
+  .navbar h6 {
+    font-size: 3.5vw;
+  }
+  .nav-item {
+    padding: 2% 0;
+  }
+  .nav-link {
+    font-size: 5vw;
+  }
+  .dropdown-menu {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 4.5vw;
+  }
+  /* ----------overlay menu---------- */
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .overlay-content {
+    position: relative;
+    top: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .overlay a {
+    transition: 0.3s;
+  }
+  .overlay .closebtn {
+    position: absolute;
+    top: 7%;
+    right: 12%;
+  }
+  /* --------------heading-------- */
+  .heading-lg {
+    font-size: 8vw;
+  }
+  .heading-md {
+    font-size: 7vw;
+  }
+  .heading-sm {
+    font-size: 10vw;
+  }
+  .heading-xs {
+    font-size: 2vw;
+  }
+  /* -------------div ----------- */
+  .div-lg {
+    width: 90%;
+  }
+  .div-md {
+    width: 100%;
+  }
+  .div-sm {
+    width: 70%;
+  }
+  .div-ms {
+    width: 90%;
+  }
+  .div-xs {
+    width: 80%;
+  }
+  /* -------------form------------ */
+  .form-sm,
+  .form-md,
+  .form-lg {
+    width: 80%;
+  }
+}
+
+/* -------------------- very small mobile devices---------------------------- */
+
+@media screen and (max-width: 550px) {
+  /* ----------navbar-------------- */
+  .navbar-brand {
+    width: 70%;
+  }
+  .navbar h5 {
+    font-size: 4.3vw;
+  }
+  .navbar h6 {
+    font-size: 3.5vw;
+  }
+  .nav-item {
+    padding: 2% 0;
+  }
+  .nav-link {
+    font-size: 5vw;
+  }
+  .dropdown-menu {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 4.5vw;
+  }
+  /* ----------overlay menu---------- */
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .overlay-content {
+    position: relative;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+  }
+  .overlay a {
+    transition: 0.3s;
+  }
+  .overlay .closebtn {
+    position: absolute;
+    top: 7%;
+    right: 12%;
+  }
+  /* --------------heading-------- */
+  .heading-lg {
+    font-size: 7.5vw;
+  }
+  .heading-md {
+    font-size: 6vw;
+  }
+  .heading-sm {
+    font-size: 5vw;
+  }
+  .heading-xs {
+    font-size: 4vw;
+  }
+  p {
+    font-size: 3vw;
+  }
+  /* -------------div ----------- */
+  .div-lg {
+    width: 95%;
+  }
+  .div-md {
+    width: 100%;
+  }
+  .div-sm {
+    width: 70%;
+  }
+  .div-ms {
+    width: 95%;
+  }
+  .action-tools-plan .px-5 {
+    padding: 10px !important;
+  }
+  /* ----------form------------- */
+  .form-sm,
+  .form-md,
+  .form-lg {
+    width: 90%;
+  }
+}
